@@ -15,3 +15,5 @@ const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 
 camera.position.z = 5;
+
+function animate() {
